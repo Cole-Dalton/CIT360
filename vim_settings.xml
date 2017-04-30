@@ -2,7 +2,9 @@
   <component name="VimSettings">
     <state version="4" enabled="true" />
     <globalmarks />
-    <filemarks />
+    <filemarks>
+      <file name="$USER_HOME$/git/CIT360/.git/CIT360/src/javaCollections/javaCollectionsCode.java" timestamp="1493510917807" />
+    </filemarks>
     <jumps />
     <registers />
     <search>
