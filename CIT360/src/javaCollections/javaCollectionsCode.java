@@ -17,8 +17,10 @@ public class javaCollectionsCode {
 
 		addAll(list2, moreStuff);
 
-		// Print the results of the array.
+		// Print the results of the list.
         for(int i = 0;i<list2.size();i++) {
+            // Print format, loop through list 2, %s = %string (with a space)
+            // get(i) references the item in the list
             System.out.printf("%s ", list2.get(i));
         }
 	}
