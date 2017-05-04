@@ -1,0 +1,7 @@
+<application>
+  <component name="TmcExerciseDatabase">
+    <option name="exerciseDatabase">
+      <ExerciseDatabase />
+    </option>
+  </component>
+</application>

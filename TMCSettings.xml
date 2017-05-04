@@ -1,0 +1,9 @@
+<application>
+  <component name="TmcSettings">
+    <option name="settingsTmc">
+      <SettingsTmc>
+        <option name="firstRun" value="false" />
+      </SettingsTmc>
+    </option>
+  </component>
+</application>
