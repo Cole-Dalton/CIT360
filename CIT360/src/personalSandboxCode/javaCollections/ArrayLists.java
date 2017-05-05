@@ -29,6 +29,7 @@ public class ArrayLists {
 		// Print a new line to separate output
 		out.println("\n");
 
+
 /* ------------------------------------------------------------------------------
 ------------------------ Second ArrayList ---------------------------------------
 ---------------------------------------------------------------------------------
@@ -70,6 +71,7 @@ public class ArrayLists {
 	Adds a method called editList that will go through the lists using an Iterator object
 	and take out all the matching Strings in list1 from list2
 	*/
+
     public static void editList(Collection<String> l1, Collection<String> l2) {
 		PrintStream out = System.out;
 		// Creates an Iterator object to loop through each item.
@@ -88,5 +90,6 @@ public class ArrayLists {
 				it.remove();
 		}
 		out.println();
+
 	}
 }
