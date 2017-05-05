@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="balls" type="CLASS" />
+      <mapping pattern="ArrayListsNotes" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
