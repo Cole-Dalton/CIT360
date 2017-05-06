@@ -1,2 +1,11 @@
-*** ArrayLists Notes ***
+*** ArrayLists and LinkedLists Notes ***
+
+- The main differences between ArrayLists and LinkedLists are in the way data is stored and removed.
+With a LinkedList, adding items to the list does not cause the neighboring elements to be moved
+as do ArrayLists. Only the pointers are changed in LinkedLists(which point to locations of elements
+in memory for access), whereas with ArrayLists, all elements need to be shifted up after the insertion.
+This is less efficient. However a drawback of LinkedLists is the fact that you can't refer to an element
+by index as you can with ArrayLists. You need an Iterator to traverse through each of the pointers to
+get to the element you want to access. Searching (get method) in ArrayLists is much faster, while adding and removing
+elements in LinkedLists is faster than ArrayLists.
 
