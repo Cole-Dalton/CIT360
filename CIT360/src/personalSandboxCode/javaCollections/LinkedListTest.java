@@ -18,8 +18,8 @@ public class LinkedListTest {
         placesToVisit.add("Oceanside");
 
         printList(placesToVisit);
-        /* The way LinkedLists work when adding elements is the
-           don't move positions in actual memory, the new element just
+        /* The way LinkedLists work when adding elements is elements
+           don't get pushed up a position in actual memory, the new element just
            gets saved in memory and the element before it now points to
            the new one in memory instead of the one that it did before, and
            the element after the new one gets pointed to by the new element.
@@ -27,13 +27,17 @@ public class LinkedListTest {
            will now point to the one that the removed one did.
            So, by adding Bend here, Newport now points to Bend instead of
            Portland. By removing Salem afterwards, Albany now points to Lincoln
-           City.
+           City. You can't refer to a specific index like you can with
+           ArrayLists. You use Iterators to go through the list but can't specifically
+           pick out items.
          */
         placesToVisit.add(1, "Bend");
-        p.println(placesToVisit);
+        printList(placesToVisit);
 
         placesToVisit.remove(4);
-        p.println(placesToVisit);
+        printList(placesToVisit);
+        placesToVisit.pop();
+        printList(placesToVisit);
     }
     private static void printList(LinkedList<String> linkedList) {
         PrintStream p = System.out;
