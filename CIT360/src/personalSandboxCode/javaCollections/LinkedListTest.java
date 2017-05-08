@@ -3,6 +3,8 @@ package personalSandboxCode.javaCollections;
 import java.io.PrintStream;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.ListIterator;
+
 /**
  * Created by daltonsolo on 5/5/2017.
  */
@@ -31,13 +33,21 @@ public class LinkedListTest {
            ArrayLists. You use Iterators to go through the list but can't specifically
            pick out items.
          */
+        p.println("Add Bend to index 1: \n");
         placesToVisit.add(1, "Bend");
         printList(placesToVisit);
-
+        p.println("Remove index 4\n");
         placesToVisit.remove(4);
         printList(placesToVisit);
+        p.println("This next one will be using the pop method\n");
+        /*
+        Pop will remove the first item in the list, sort of like
+        popping something off the top of a stack. In this case it will
+        pop Newport, which is at index 0
+        */
         placesToVisit.pop();
         printList(placesToVisit);
+
     }
     private static void printList(LinkedList<String> linkedList) {
         PrintStream p = System.out;

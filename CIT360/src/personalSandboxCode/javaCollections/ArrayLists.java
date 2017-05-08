@@ -74,7 +74,7 @@ public class ArrayLists {
 
     public static void editList(Collection<String> l1, Collection<String> l2) {
 		PrintStream out = System.out;
-		// Creates an Iterator object to loop through each item.
+		// Creates an Iterator object to loop through each item in l1.
 		Iterator<String> it = l1.iterator();
 		/*
 		Loops through until the end of the list.
