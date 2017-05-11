@@ -28,12 +28,12 @@ public class Salmon implements Runnable {
 
     }
     // Creates run method. Run method is called whenever thread is started.
-
+    @Override
     public void run(){
         PrintStream p = System.out;
         // This is the code that actually gets run whenever the thread is started.
         try{
-            // %s = string, $s = decimal?
+            // %s = string, $d = decimal
             p.printf("%s is sleeping for %d\n", name, time);
             /*
             Put the thread to bed. Lol
@@ -43,6 +43,8 @@ public class Salmon implements Runnable {
             Thread.sleep(time);
             p.printf("%s woke up from its sleep\n", name);
 
-        }catch(Exception e){}
+        }catch(Exception e){
+            e.printStackTrace();
+        }
     }
 }
