@@ -2,7 +2,10 @@
   <component name="TmcSettings">
     <option name="settingsTmc">
       <SettingsTmc>
+        <option name="checkForExercises" value="true" />
         <option name="firstRun" value="false" />
+        <option name="password" value="NG8li6xf6aSJ" />
+        <option name="username" value="daltonsolo" />
       </SettingsTmc>
     </option>
   </component>
