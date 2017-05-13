@@ -12,4 +12,6 @@ by index in the same way that you you can with ArrayLists. You need an Iterator 
 get to the element you want to access. Searching (get method) in ArrayLists is much faster, while adding and removing
 elements in LinkedLists is faster than ArrayLists.
 
-
+* Basics of HashMap
+A HashMap uses a mapping between a key and a value. You can create it, add some keys and corresponding values, then
+refer to the key or value using methods from the HashMap import.
