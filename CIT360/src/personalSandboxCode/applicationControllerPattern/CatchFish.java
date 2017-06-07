@@ -7,7 +7,9 @@ import java.util.List;
  * Created by daltonsolo on 6/3/2017.
  */
 
+// This class contains all the code that executes when a user enters the "catch" command
 public class CatchFish implements Handler {
+    // Execute method from Handler interface
     public void exe(String fish1, String fish2, List<String> numFish) {
         // Generates random number between 0 and 1 to decide if you catch a fish (equal probability of both)
         int caughtDecider = (Math.random() <= 0.5) ? 0 : 1;
@@ -22,12 +24,14 @@ public class CatchFish implements Handler {
         else if(caughtDecider == 1) {
             // If it's 2, you caught fish1
             if(fishDecider == 2) {
+                // Add fish1 to array
                 numFish.add(fish1);
                 System.out.println("You caught some " + fish1 + "! Nice job.");
                 System.out.println("You now have " + numFish.size() + " fish.");
             }
             // If it's 3, you caught fish2
             else if(fishDecider == 3) {
+                // add fish2 to array
                 numFish.add(fish2);
                 System.out.println("You caught some " + fish2 + "! Nice job.");
                 System.out.println("You now have " + numFish.size() + " fish.");
